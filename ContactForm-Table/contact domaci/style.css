@@ -1,0 +1,116 @@
+body {
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center center; 
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+#nav {
+	width: 100%;
+
+	margin: 0 0 0 0;
+	padding: 0;
+	  
+}
+#nav  ul {
+	list-style: none;
+	width: 800px;
+	margin: 0 auto;
+	padding: 0; 
+	float: center;
+}
+#nav  li {
+	float: right;
+
+}
+#nav li a {
+	display: block;
+	padding: 8px 15px;
+	text-decoration: none;
+	font-weight: bold;
+	color: #664f4f;
+	border-right: 1px solid #ccc;
+	border-bottom:1px solid #ccc;
+	font-size: 20px;
+
+}
+#nav  li:first-child a {
+	border-left: 1px solid #ccc; 
+}
+#nav  li a:hover {
+	color: black;
+	background-color: #fff; 
+}
+#formWrap{
+	width: 520px;
+	margin-top: 70px;
+	margin-left: 100px;
+	background: transparent;
+	padding: 70px 300px 40px;
+	opacity: 0%;
+    }
+#form .row{
+	
+	display: block;
+	line-height: 20px;
+	overflow: auto;
+	padding: 24px 0px;
+	width: 100%;
+}
+#form .row .label{
+	font-size: 16px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	width: 130px;
+	text-align: right;
+	float: left;
+	padding-right: 10px;
+	margin-right: 10px;
+	color: #664f4f;
+}
+
+#form .row .input{
+	float: left;
+	margin-right: 10px;
+	width: auto;
+}
+.detail{
+	width: 160px;
+	font-family: Arial. Helvetica, sans-serif;
+	font-size: 10px;
+	padding:7px 8px;
+	margin: 0px;
+}
+.mess{
+	width: 350px;
+	max-width: 350px;
+	height: 130px;
+	overflow: auto;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	padding: 7px 8px;
+	line-height: 1em;
+	margin: 0;
+}
+#form .row .context{
+	color: #999;
+	font-size: 11px;
+	font-style: italic;
+	line-height: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+	width: 100px;
+	float: left;
+}
+#form #submit{
+	font-family: Arial, Helvetica, sans-serif;
+	margin-top: 25px;
+	margin-left: 200px;
+	color: #000;
+	font-size: 16px;
+	text-shadow: 1px 1px 1px #999;
+	padding: 10px;
+
+}
+
